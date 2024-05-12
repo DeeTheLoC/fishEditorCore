@@ -1,7 +1,7 @@
 {
   "ver": "2.3.4",
   "uuid": "67f16e47-6cf2-45bc-ae37-ae198a39cacb",
-  "type": "sprite",
+  "spriteType": "sprite", // more specific value
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
@@ -9,6 +9,8 @@
   "packable": true,
   "width": 600,
   "height": 20,
+  "name": "My Sprite", // added name
+  "scale": 1, // added scale
   "platformSettings": {},
   "subMetas": {
     "line": {
@@ -26,10 +28,12 @@
       "height": 5,
       "rawWidth": 600,
       "rawHeight": 20,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
+      "border": { // replaced border properties with a single object
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
       "subMetas": {}
     }
   }
