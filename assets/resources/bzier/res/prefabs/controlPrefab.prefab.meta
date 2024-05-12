@@ -1,8 +1,19 @@
 {
+  /* The version of the configuration schema */
   "ver": "1.2.7",
+
+  /* The unique identifier of the configuration */
   "uuid": "627e0364-ffec-44f7-aa9a-dabf125f5c6e",
+
+  /* The optimization policy for the configuration */
   "optimizationPolicy": "AUTO",
+
+  /* Whether to asynchronously load assets or not */
   "asyncLoadAssets": false,
+
+  /* Whether the configuration is read-only or not */
   "readonly": false,
+
+  /* Additional metadata for the configuration */
   "subMetas": {}
 }
