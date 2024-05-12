@@ -1,4 +1,5 @@
 [
+  // Prefab object
   {
     "__type__": "cc.Prefab",
     "_name": "",
@@ -8,6 +9,7 @@
       "__id__": 1
     }
   },
+  // Node object
   {
     "__type__": "cc.Node",
     "_name": "point",
@@ -70,6 +72,7 @@
       ]
     }
   },
+  // Sprite component
   {
     "__type__": "cc.Sprite",
     "_name": "",
@@ -96,6 +99,7 @@
     "_dstBlendFactor": 771,
     "_atlas": null
   },
+  // BlockInputEvents component
   {
     "__type__": "cc.BlockInputEvents",
     "_name": "",
@@ -105,6 +109,7 @@
     },
     "_enabled": false
   },
+  // PrefabInfo object
   {
     "__type__": "cc.PrefabInfo",
     "root": {
