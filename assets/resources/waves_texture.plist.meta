@@ -1,5 +1,6 @@
 {
-  "ver": "2.0.1",
-  "uuid": "89d2a4be-802c-4e15-9d49-2242adab5426",
-  "subMetas": {}
+  "schemaVersion": "2.0.1",
+  "id": "89d2a4be-802c-4e15-9d49-2242adab5426",
+  "metadata": {},
+  "data": {}
 }
