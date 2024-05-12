@@ -1,41 +1,43 @@
-//常量
+// Constants for the game
+
+// Z-index values for various game elements
 module.exports = {
-    nodeZIndex:{
-        zIndexFish:100,
-        zIndexBullet:200,
-        zIndexFreeze:300,
-        zIndexPartBoom:400,
-        zIndexAllBoom:500,
-        zIndexTowerNet:600,
-        zIndexGoldColumn:700,
-        zIndexGold:800,
-        zIndexRotateEffect:900,
-        zIndexAni:950,
-        zIndexFunction:1000,
-        zIndexTower:2100,
-        zIndexTip:1200,
-        zIndexAround:1300,
-        zIndexTouch:2000,
+  NODE_Z_INDEX: {
+    ANI: 950,
+    AROUND: 1300,
+    BULLET: 200,
+    DIE_TYPE_0: 0, // Natural death
+    DIE_TYPE_1: 1, // Player attack
+    DIE_TYPE_2: 2, // Full-screen bomb
+    DIE_TYPE_3: 3, // Lightning
+    DIE_TYPE_4: 4, // Whirlpool
+    FISH_15: 15, // Batfish
+    FISH_16: 16, // Blue shark
+    FISH_17: 17, // Gold shark
+    FISH_18: 18, // Gold coin
+    FISH_19: 19, // Alligator
+    FISH_20: 20, // Dragon
+    FISH_22: 22, // Toad
+    FISH_31: 31, // Bomb
+    FUNCTION: 1000,
+    FISH: 31, // Bomb
+    GOLD: 800,
+    GOLD_COLUMN: 700,
+    FREEZE: 300,
+    PART_BOOM: 400,
+    ALL_BOOM: 500,
+    POW_GUN_BULLET: "bullet_1_10_", // Energy cannon bullet
+    ROTATE_EFFECT: 900,
+    SPECIAL_EFFECT_TYPE: {
+      BOOM: 2, // Bomb
+      GROUP: 3, // Fish group
+      IC: 1, // Freeze
+      LIGHTNING: 4, // Instant win
     },
-    Boom:31,        //炸弹
-    Fish15:15,      //调整中心点 -- 蝙蝠鱼
-    Fish16:16,      //调整中心点 -- 蓝鲨
-    Fish17:17,      //调整中心点 -- 金鲨
-    Fish18:18,      //调整中心点 -- 金铜钱
-    Fish19:19,      //调整中心点 -- 鳄鱼
-    Fish20:20,      //调整中心点 -- 龙
-    Fish22:22,      //调整中心点 -- 蟾蜍
-    Fish31:31,      //调整中心点 -- 炸弹
-    PowGunBullet:"bullet_1_10_",//能量炮子弹
-    dieType0:0,     //自然死亡
-    dieType1:1,     //玩家攻击
-    dieType2:2,     //全屏炸弹
-    dieType3:3,     //闪电
-    dieType4:4,     //旋涡
-    SpecialEffectType:{
-        IC:1,        //冰冻道具
-        Boom:2,      //炸弹
-        Group:3,     //鱼组
-        Lightning:4, //出奇制胜
-    },
-}
+    TOWER: 2100,
+    TOWER_NET: 600,
+    TIP: 1200,
+    TOUCH: 2000,
+    ZINDEX_ANI: 950,
+  },
+};
