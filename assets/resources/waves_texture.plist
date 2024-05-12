@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>angle</key>
-	<real>-180</real>
+	<real>-Math.PI</real>
 	<key>angleVariance</key>
-	<real>10</real>
+	<real>Math.PI/18</real>
 	<key>blendFuncDestination</key>
 	<integer>1</integer>
 	<key>blendFuncSource</key>
@@ -33,51 +33,51 @@
 	<key>finishParticleSize</key>
 	<real>60</real>
 	<key>finishParticleSizeVariance</key>
-	<real>0</real>
+	<real>10</real>
 	<key>gravityx</key>
-	<real>1600</real>
+	<real>0</real>
 	<key>gravityy</key>
-	<real>-20</real>
+	<real>-9.81</real>
 	<key>maxParticles</key>
-	<real>691</real>
+	<real>1000</real>
 	<key>maxRadius</key>
-	<real>0</real>
+	<real>5</real>
 	<key>maxRadiusVariance</key>
-	<real>0</real>
+	<real>2</real>
 	<key>minRadius</key>
 	<real>0</real>
 	<key>particleLifespan</key>
-	<real>0.63</real>
+	<real>5</real>
 	<key>particleLifespanVariance</key>
-	<real>0.3</real>
+	<real>2</real>
 	<key>radialAccelVariance</key>
 	<real>0</real>
 	<key>radialAcceleration</key>
-	<real>117</real>
+	<real>0</real>
 	<key>rotatePerSecond</key>
 	<real>0</real>
 	<key>rotatePerSecondVariance</key>
 	<real>0</real>
 	<key>rotationEnd</key>
-	<real>1440</real>
+	<real>Math.PI*2</real>
 	<key>rotationEndVariance</key>
-	<real>0.0</real>
+	<real>0</real>
 	<key>rotationStart</key>
-	<real>1440</real>
+	<real>0</real>
 	<key>rotationStartVariance</key>
 	<real>0</real>
 	<key>sourcePositionVariancex</key>
-	<real>80</real>
+	<real>1</real>
 	<key>sourcePositionVariancey</key>
-	<real>445</real>
+	<real>1</real>
 	<key>sourcePositionx</key>
-	<real>153.7974683544304</real>
+	<real>0</real>
 	<key>sourcePositiony</key>
-	<real>694.9367088607596</real>
+	<real>0</real>
 	<key>speed</key>
-	<real>143</real>
+	<real>1</real>
 	<key>speedVariance</key>
-	<real>45</real>
+	<real>0.5</real>
 	<key>startColorAlpha</key>
 	<real>1</real>
 	<key>startColorBlue</key>
@@ -87,24 +87,24 @@
 	<key>startColorRed</key>
 	<real>1</real>
 	<key>startColorVarianceAlpha</key>
-	<real>0.5</real>
+	<real>0</real>
 	<key>startColorVarianceBlue</key>
-	<real>0.1</real>
+	<real>0</real>
 	<key>startColorVarianceGreen</key>
-	<real>0.1</real>
+	<real>0</real>
 	<key>startColorVarianceRed</key>
-	<real>0.1</real>
+	<real>0</real>
 	<key>startParticleSize</key>
-	<real>25</real>
+	<real>10</real>
 	<key>startParticleSizeVariance</key>
-	<real>12</real>
+	<real>5</real>
 	<key>tangentialAccelVariance</key>
 	<real>0</real>
 	<key>tangentialAcceleration</key>
-	<real>64</real>
+	<real>0</real>
 	<key>textureFileName</key>
 	<string>waves_texture.png</string>
 	<key>textureImageData</key>
-	<string>H4sIAAAAAAAAA51WDVAUZRhe/hRBOBKiBrV2Fk0S9/bn/ldOOe4QTjwg/jX/9nb3ju3udq/dhTtILZiw0UGkRnMw8TczLQsno1QSx3FySm3UUqEJQnPU/ClLK6NR2gMOf0bJaWe+2/3e73mf9/m+9/3euWX5uVkxUUlRAADEWLMtBfI7SR5jI0fIv/bEDS75NcqbPVsEgOj4wAgB1q57GgAietmiMqnMNougeI+SpHk7o/R7vEDgSZvu95KUi5FAO+NkOSP06752CGRpI1SqsaE2r5kpZ7OrBaawOreIqnZRBhqaPg1M8xMygYeRSNDvcXMi4TdC/byE/B0wIxDYD5FcRsgUWADLbPmgmRcYUKPUwhSm1oA6gxLTqtQGwxQQRzE9guoRTAVjWkKNEjgODj6QHE2gHUSBZcZgLHlmhMolyUsgiM/nU/pUSl5wIpjBYEBQHMFxWEbAYhUnkX6YE5ODDBZGpATWK7E8BwbmpJ2vkIwQFNyCxztEy4mDxyQfGOInvQimRJEgkKaGcN4Kwd0fnKYQxs14GE4SZSw2hPWW8xIvlvOPoB5avi+ArMRmG16LxzOEFqXMSml4tFhU5WWQAkbkKwSKyayUZSYH3L2EWWBIiReKeN4dTFR+UBNoNgcSYwBTSlmO5n3i8/f4MBZ5GCEcxVEY1clZK0INBIYTmCYV1REoOgC18TTrqLofiquLMIxANQSK3weVq4YmJfI/wTRFOHjBQ8p7Zj2kk0G8nBMCh06SMPNuXpADyyyqe+1Wszlf4B2sW14QC7IyQGumWYsZtFoYV2L9Gmw2wsqJEslRjNVihGSLkmVpArPTGorSU7AdU9GwnlbTMKlXG2CtGme0KhRDtSQZ9LfwVEWgCgL+AxeC5imZ464MmsHUDInaYb3KroMNdpnIrjegsF6rYxwortLYdWiQLU9g5TtJuu9lDaiiZUbSoVHRNEPCKObQw3qNWgWTlEMDU1pUrVY5dLjeoA1U/gBTNivKaa4avAmFzMuDX24W7K8fgqQC98IIUf3JpaFBM/uQ83isyIP+vnKGG7ZKBmAi75B8pMCYnPIuH6cQkUfpF8nK4dU/XjYfpv4htfg/1Q/6UeUk52TkVov07we5mxrkwawhDzSwoEnuiv3wYDuWJ0MNneFkakFu1z9tuLMAAEKnWi2mouxlXW+bXPEvxB1+9RP/160RnZrEDCxj+6dj8hIV69Oiz3Vt8U2v/9H0xfKeznH1T/G1tlT4SUu5rbY8fiWf1lbVteYYVz9SvHQg+Z2upr+ZOzcq51uKZy+dmLNpbvbxrXtHQvgfXdv3xV4Fdl76E+mJ7MiZ0LRKPHT744jVgC9ij+KHsNYth5M3Knq/3H7ldEjIu9yZZZG5XbBpfejK16bMjEVT6m4mLB61KLKlbvJyMA86AHR85gq7rGg8kv5cywfdFwsNCxavbDxcYm2Zdn3+CeRW97qQ+PYEMOJ0TWuhbtYEQ3M0/tUzkb/HIWdSaheF56bQ/3hSO4BLgK55767bjS81Fq6JGqNbHGdq2Hw+BG04OLbkZ+J4eIPLdCFOt98pNAPmsPrUcyUH6w4sre4T809FvxLzuWlXhaKGTxBOmZLSYz+sdc8pvlgSMRMGetLPpl5v7lxyKBG01cS0Qa5d5tVSfJulrNj5XU5i6cnwOa2nbry1YOL7inGWbzatnZwdu7umeKGtUdtS/KaYuCpb2HE59repirZVKyIT1q4PG2/iss42dT0buqGv5ImoeTW26FnXKr99rcM588QbR09rvRH+ulLHtMiOwps7Y04mzt+fP6/DZtoxuj1HDLuW2vt9auHRvU2bkhpGbvtlsjdrYdbZSUuuvn6+uJgeUTUiLW9C05RwvCzqauiLW2dcbA0Fepo3I6Hh7237a25+uCtsfF/DLeux3SsSroV03UrrnZTfObottP5K7J669L4jyu72jVtr7gDdrRfiVitYW+AvgzUz1/JRxsLafwGsaduljwgAAA==</string>
+	<string>[INSERT TEXTURE DATA HERE]</string>
 </dict>
 </plist>
