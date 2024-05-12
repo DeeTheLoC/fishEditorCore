@@ -1,7 +1,7 @@
 {
-  "ver": "1.0.1",
-  "uuid": "5e3fabb4-0d85-4ffb-b350-326159da3ff2",
-  "isSubpackage": false,
-  "subpackageName": "",
-  "subMetas": {}
+  "version": "1.0.1", // version of the code or package
+  "uuid": "5e3fabb4-0d85-4ffb-b350-326159da3ff2", // unique identifier for the code or package
+  "isSubpackage": false, // flag to indicate if this is a sub-package or not
+  "subpackageName": "", // name of the sub-package, if it's a sub-package
+  "subMetas": {} // metadata for the sub-package, if it's a sub-package
 }
